@@ -13,7 +13,7 @@
         <!--Do It-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="DoIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="TasksViewController" customModule="DoIt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,6 +42,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="TableView" destination="iS9-DP-LSk" id="RA0-LX-qah"/>
+                        <outlet property="tableView" destination="iS9-DP-LSk" id="Rqe-cc-rnG"/>
                         <segue destination="Yq3-1v-OH0" kind="show" identifier="addSegue" id="1vx-9r-uKa"/>
                     </connections>
                 </viewController>

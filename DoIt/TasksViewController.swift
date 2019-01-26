@@ -40,7 +40,7 @@ class TasksViewController: UIViewController,UITableViewDelegate, UITableViewData
 }
     
     @IBAction func plusTapped(_ sender: Any) {
-        performSegue(withIdentifier: "", sender: nil)
+        performSegue(withIdentifier: "addSegue", sender: nil)
     }
 }
 func makeTasks() -> [Task] {
