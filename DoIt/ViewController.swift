@@ -39,6 +39,9 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         return cell
 }
     
+    @IBAction func plusTapped(_ sender: Any) {
+        performSegue(withIdentifier: "addSegue" , sender: nil)
+    }
 }
 func makeTasks() -> [Task] {
     let task1 = Task()
