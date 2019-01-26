@@ -42,6 +42,10 @@ class TasksViewController: UIViewController,UITableViewDelegate, UITableViewData
     @IBAction func plusTapped(_ sender: Any) {
         performSegue(withIdentifier: "addSegue", sender: nil)
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! CreateTaskViewController
+        nextVC.previousVC = self
+    }
 }
 func makeTasks() -> [Task] {
     let task1 = Task()
