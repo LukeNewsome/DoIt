@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TasksViewController.swift
 //  DoIt
 //
 //  Created by Luke Newsome on 1/26/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSource{
+class TasksViewController: UIViewController,UITableViewDelegate, UITableViewDataSource{
 
     @IBOutlet weak var tableView: UITableView!
     var tasks: [Task] = []
@@ -40,7 +40,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
 }
     
     @IBAction func plusTapped(_ sender: Any) {
-        performSegue(withIdentifier: "addSegue" , sender: nil)
+        performSegue(withIdentifier: "", sender: nil)
     }
 }
 func makeTasks() -> [Task] {
