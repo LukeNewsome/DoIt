@@ -13,6 +13,7 @@
 		A3962ABE21FCE99400DC7FD4 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3962ABC21FCE99400DC7FD4 /* DoIt.xcdatamodeld */; };
 		A3962AC021FCE99400DC7FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3962ABF21FCE99400DC7FD4 /* Assets.xcassets */; };
 		A3962AC321FCE99400DC7FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3962AC121FCE99400DC7FD4 /* LaunchScreen.storyboard */; };
+		A3962ACB21FCEFAA00DC7FD4 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3962ACA21FCEFAA00DC7FD4 /* task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A3962ABF21FCE99400DC7FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3962AC221FCE99400DC7FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3962AC421FCE99400DC7FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3962ACA21FCEFAA00DC7FD4 /* task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A3962AB521FCE99300DC7FD4 /* AppDelegate.swift */,
 				A3962AB721FCE99300DC7FD4 /* ViewController.swift */,
+				A3962ACA21FCEFAA00DC7FD4 /* task.swift */,
 				A3962AB921FCE99400DC7FD4 /* Main.storyboard */,
 				A3962ABF21FCE99400DC7FD4 /* Assets.xcassets */,
 				A3962AC121FCE99400DC7FD4 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3962ACB21FCEFAA00DC7FD4 /* task.swift in Sources */,
 				A3962ABE21FCE99400DC7FD4 /* DoIt.xcdatamodeld in Sources */,
 				A3962AB821FCE99300DC7FD4 /* ViewController.swift in Sources */,
 				A3962AB621FCE99300DC7FD4 /* AppDelegate.swift in Sources */,
